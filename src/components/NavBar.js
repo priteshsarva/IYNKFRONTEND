@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const NavBar = () => {
     return (
         <>
@@ -13,12 +15,12 @@ const NavBar = () => {
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
+                            </li>                            
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/category">Category</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#/category">Category</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#/reddit">Reddit</a>
+                                <a className="nav-link active" aria-current="page" href="/reddit">Reddit</a>
                             </li>
                         </ul>
 
