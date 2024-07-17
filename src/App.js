@@ -16,8 +16,8 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Home />} key="1"/>
-          <Route path="/category" element={<Category />} key="2"/>
-          <Route path="/reddit" element={<Reddit />} key="3" />
+          <Route path="./category" element={<Category />} key="2"/>
+          <Route path="./reddit" element={<Reddit />} key="3" />
 
         </Routes>
       </ BrowserRouter>
