@@ -11,7 +11,7 @@ function App() {
   return (
     <>
 
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <NavBar />
         <Routes>
 
@@ -20,9 +20,8 @@ function App() {
           <Route path="/reddit" element={<Reddit />} key="3" />
 
         </Routes>
-      </ BrowserRouter> */}
-HEEELLLOOO 
-22
+      </ BrowserRouter>
+
 
     </>
   );
