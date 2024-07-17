@@ -11,13 +11,13 @@ function App() {
   return (
     <>
 
-      <HashRouter basename='/iynk'>
+      <HashRouter>
         {/* <BrowserRouter basename='/iynk'> */}
 
         <NavBar />
         <Routes>
 
-          <Route path="/iynk" element={<Home />}  />
+          <Route path="/" element={<Home />}  />
           <Route path="/category" element={<Category />} />
           <Route path="/reddit" element={<Reddit />} />
 
